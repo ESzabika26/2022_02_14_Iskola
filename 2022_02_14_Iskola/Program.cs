@@ -16,7 +16,7 @@ namespace _2022_02_14_Iskola
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new IskolaGUI());
         }
     }
 }

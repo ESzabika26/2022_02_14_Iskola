@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace _2022_02_14_Iskola
 {
-    public partial class Form1 : Form
+    public partial class IskolaGUI : Form
     {
-        public Form1()
+        public IskolaGUI()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
