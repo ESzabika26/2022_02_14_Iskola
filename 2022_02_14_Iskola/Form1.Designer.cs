@@ -59,6 +59,7 @@ namespace _2022_02_14_Iskola
             this.btnTörlés.TabIndex = 2;
             this.btnTörlés.Text = "Törlés";
             this.btnTörlés.UseVisualStyleBackColor = true;
+            this.btnTörlés.Click += new System.EventHandler(this.btnTörlés_Click);
             // 
             // IskolaGUI
             // 
